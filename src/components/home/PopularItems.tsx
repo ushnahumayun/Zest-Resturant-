@@ -1,12 +1,18 @@
 import { Link } from 'react-router-dom';
 import burgerImg from '@/assets/menu-burger.jpg';
-import pastaImg from '@/assets/menu-pasta.jpg';
-import steakImg from '@/assets/menu-steak.jpg';
-import karahiImg from '@/assets/menu-karahi.jpg';
+import pastaImg from '@/assets/menu-pasta-new.jpg';
+import steakImg from '@/assets/menu-steak-new.jpg';
+import dynamiteImg from '@/assets/menu-dynamite.jpg';
 
 const popularItems = [
   {
-    name: 'Royal Burger',
+    name: 'Dynamite Chicken',
+    category: 'Appetizers',
+    image: dynamiteImg,
+    price: 'Rs. 1,500',
+  },
+  {
+    name: 'Zesté Special Burger',
     category: 'Fast Food',
     image: burgerImg,
     price: 'Rs. 850',
@@ -15,19 +21,13 @@ const popularItems = [
     name: 'Alfredo Pasta',
     category: 'Italian',
     image: pastaImg,
-    price: 'Rs. 1,200',
+    price: 'Rs. 1,300',
   },
   {
-    name: 'Grilled Steak',
+    name: 'Zesté Special Grilled Steak',
     category: 'Continental',
     image: steakImg,
-    price: 'Rs. 2,500',
-  },
-  {
-    name: 'Chicken Karahi',
-    category: 'Desi',
-    image: karahiImg,
-    price: 'Rs. 1,800',
+    price: 'Rs. 3,000',
   },
 ];
 
