@@ -5,6 +5,16 @@ import burgerImg from '@/assets/menu-burger.jpg';
 import pastaImg from '@/assets/menu-pasta-new.jpg';
 import steakImg from '@/assets/menu-steak-new.jpg';
 import dynamiteImg from '@/assets/menu-dynamite.jpg';
+import garlicBreadImg from '@/assets/menu-garlic-bread.jpg';
+import friesImg from '@/assets/menu-fries.jpg';
+import soupImg from '@/assets/menu-soup.jpg';
+import chineseImg from '@/assets/menu-chinese.jpg';
+import pizzaImg from '@/assets/menu-pizza.jpg';
+import cakeImg from '@/assets/menu-cake.jpg';
+import drinksImg from '@/assets/menu-drinks.jpg';
+import noodlesImg from '@/assets/menu-noodles.jpg';
+import wingsImg from '@/assets/menu-wings.jpg';
+import shawarmaImg from '@/assets/menu-shawarma.jpg';
 
 type Category = 'All' | 'Appetizers' | 'Continental' | 'Italian' | 'Chinese' | 'Fast Food' | 'Desserts' | 'Drinks';
 
@@ -13,20 +23,20 @@ const categories: Category[] = ['All', 'Appetizers', 'Continental', 'Italian', '
 const menuItems = [
   // Appetizers
   { name: 'Dynamite Chicken', category: 'Appetizers', price: 'Rs. 1,500', description: 'Crispy spicy chicken bites', image: dynamiteImg },
-  { name: 'Garlic Bread', category: 'Appetizers', price: 'Rs. 350', description: 'Freshly baked bread with garlic butter', image: pastaImg },
-  { name: 'Cheese Sticks', category: 'Appetizers', price: 'Rs. 450', description: 'Crispy golden cheese sticks', image: pastaImg },
-  { name: 'French Fries', category: 'Appetizers', price: 'Rs. 300', description: 'Classic crispy golden fries', image: burgerImg },
-  { name: 'Potato Wedges', category: 'Appetizers', price: 'Rs. 350', description: 'Seasoned potato wedges', image: burgerImg },
-  { name: 'Onion Rings', category: 'Appetizers', price: 'Rs. 400', description: 'Crispy battered onion rings', image: burgerImg },
-  { name: 'Loaded Fries', category: 'Appetizers', price: 'Rs. 550', description: 'Fries with cheese and toppings', image: burgerImg },
-  { name: 'Cream of Mushroom Soup', category: 'Appetizers', price: 'Rs. 450', description: 'Creamy mushroom soup', image: pastaImg },
-  { name: 'Chicken Corn Soup', category: 'Appetizers', price: 'Rs. 400', description: 'Classic chicken corn soup', image: pastaImg },
-  { name: 'Hot & Sour Soup', category: 'Appetizers', price: 'Rs. 400', description: 'Tangy spicy soup', image: pastaImg },
+  { name: 'Garlic Bread', category: 'Appetizers', price: 'Rs. 350', description: 'Freshly baked bread with garlic butter', image: garlicBreadImg },
+  { name: 'Cheese Sticks', category: 'Appetizers', price: 'Rs. 450', description: 'Crispy golden cheese sticks', image: garlicBreadImg },
+  { name: 'French Fries', category: 'Appetizers', price: 'Rs. 300', description: 'Classic crispy golden fries', image: friesImg },
+  { name: 'Potato Wedges', category: 'Appetizers', price: 'Rs. 350', description: 'Seasoned potato wedges', image: friesImg },
+  { name: 'Onion Rings', category: 'Appetizers', price: 'Rs. 400', description: 'Crispy battered onion rings', image: friesImg },
+  { name: 'Loaded Fries', category: 'Appetizers', price: 'Rs. 550', description: 'Fries with cheese and toppings', image: friesImg },
+  { name: 'Cream of Mushroom Soup', category: 'Appetizers', price: 'Rs. 450', description: 'Creamy mushroom soup', image: soupImg },
+  { name: 'Chicken Corn Soup', category: 'Appetizers', price: 'Rs. 400', description: 'Classic chicken corn soup', image: soupImg },
+  { name: 'Hot & Sour Soup', category: 'Appetizers', price: 'Rs. 400', description: 'Tangy spicy soup', image: soupImg },
   { name: 'Crispy Chicken Bites', category: 'Appetizers', price: 'Rs. 650', description: 'Crispy fried chicken pieces', image: dynamiteImg },
-  { name: 'Chicken Spring Rolls', category: 'Appetizers', price: 'Rs. 450', description: 'Crispy chicken filled rolls', image: pastaImg },
-  { name: 'Chicken Dumplings', category: 'Appetizers', price: 'Rs. 550', description: 'Steamed chicken dumplings', image: pastaImg },
-  { name: 'Fried Prawns', category: 'Appetizers', price: 'Rs. 850', description: 'Golden fried prawns', image: pastaImg },
-  { name: 'Finger Fish', category: 'Appetizers', price: 'Rs. 750', description: 'Crispy fish fingers', image: pastaImg },
+  { name: 'Chicken Spring Rolls', category: 'Appetizers', price: 'Rs. 450', description: 'Crispy chicken filled rolls', image: dynamiteImg },
+  { name: 'Chicken Dumplings', category: 'Appetizers', price: 'Rs. 550', description: 'Steamed chicken dumplings', image: dynamiteImg },
+  { name: 'Fried Prawns', category: 'Appetizers', price: 'Rs. 850', description: 'Golden fried prawns', image: dynamiteImg },
+  { name: 'Finger Fish', category: 'Appetizers', price: 'Rs. 750', description: 'Crispy fish fingers', image: dynamiteImg },
   
   // Continental
   { name: 'Mexican Steak', category: 'Continental', price: 'Rs. 2,800', description: 'Spicy Mexican style steak', image: steakImg },
@@ -41,37 +51,37 @@ const menuItems = [
   { name: 'Lasagna', category: 'Italian', price: 'Rs. 1,400', description: 'Layered pasta with meat sauce', image: pastaImg },
   
   // Chinese
-  { name: 'Thai Chicken Curry', category: 'Chinese', price: 'Rs. 1,200', description: 'Aromatic Thai curry', image: dynamiteImg },
-  { name: 'Chicken Cashewnuts', category: 'Chinese', price: 'Rs. 1,100', description: 'Chicken with roasted cashews', image: dynamiteImg },
-  { name: 'Kung Pao Chicken', category: 'Chinese', price: 'Rs. 1,100', description: 'Spicy chicken with peanuts', image: dynamiteImg },
-  { name: 'Buffalo Wings', category: 'Chinese', price: 'Rs. 850', description: 'Spicy buffalo style wings', image: dynamiteImg },
-  { name: 'Chicken Chowmein', category: 'Chinese', price: 'Rs. 900', description: 'Stir fried noodles with chicken', image: dynamiteImg },
-  { name: 'Chicken Manchurian', category: 'Chinese', price: 'Rs. 950', description: 'Crispy chicken in tangy sauce', image: dynamiteImg },
+  { name: 'Thai Chicken Curry', category: 'Chinese', price: 'Rs. 1,200', description: 'Aromatic Thai curry', image: chineseImg },
+  { name: 'Chicken Cashewnuts', category: 'Chinese', price: 'Rs. 1,100', description: 'Chicken with roasted cashews', image: chineseImg },
+  { name: 'Kung Pao Chicken', category: 'Chinese', price: 'Rs. 1,100', description: 'Spicy chicken with peanuts', image: chineseImg },
+  { name: 'Buffalo Wings', category: 'Chinese', price: 'Rs. 850', description: 'Spicy buffalo style wings', image: wingsImg },
+  { name: 'Chicken Chowmein', category: 'Chinese', price: 'Rs. 900', description: 'Stir fried noodles with chicken', image: noodlesImg },
+  { name: 'Chicken Manchurian', category: 'Chinese', price: 'Rs. 950', description: 'Crispy chicken in tangy sauce', image: chineseImg },
   
   // Fast Food
   { name: 'Zesté Special Burger', category: 'Fast Food', price: 'Rs. 950', description: 'Our signature special burger', image: burgerImg },
   { name: 'Beef Burger', category: 'Fast Food', price: 'Rs. 850', description: 'Juicy beef patty burger', image: burgerImg },
   { name: 'Zinger Burger', category: 'Fast Food', price: 'Rs. 750', description: 'Crispy zinger chicken burger', image: burgerImg },
-  { name: 'Zesté Special Zinger Shawarma', category: 'Fast Food', price: 'Rs. 650', description: 'Signature zinger shawarma', image: burgerImg },
-  { name: 'Zesté Special Pizza', category: 'Fast Food', price: 'Rs. 1,500', description: 'Our signature loaded pizza', image: burgerImg },
+  { name: 'Zesté Special Zinger Shawarma', category: 'Fast Food', price: 'Rs. 650', description: 'Signature zinger shawarma', image: shawarmaImg },
+  { name: 'Zesté Special Pizza', category: 'Fast Food', price: 'Rs. 1,500', description: 'Our signature loaded pizza', image: pizzaImg },
   
   // Desserts
-  { name: 'Three Milk Cake', category: 'Desserts', price: 'Rs. 550', description: 'Classic tres leches cake', image: pastaImg },
-  { name: 'Chocolate Dream Cake', category: 'Desserts', price: 'Rs. 650', description: 'Rich chocolate layer cake', image: pastaImg },
-  { name: 'Lotus Cake', category: 'Desserts', price: 'Rs. 600', description: 'Biscoff lotus cake', image: pastaImg },
-  { name: 'Pistachio Cake', category: 'Desserts', price: 'Rs. 650', description: 'Creamy pistachio cake', image: pastaImg },
-  { name: 'Red Velvet Cake', category: 'Desserts', price: 'Rs. 600', description: 'Classic red velvet', image: pastaImg },
-  { name: 'Coffee Cake', category: 'Desserts', price: 'Rs. 550', description: 'Rich coffee flavored cake', image: pastaImg },
-  { name: 'Lotus Cookie', category: 'Desserts', price: 'Rs. 350', description: 'Biscoff lotus cookie', image: pastaImg },
-  { name: 'Nutella Cookie', category: 'Desserts', price: 'Rs. 350', description: 'Chocolate hazelnut cookie', image: pastaImg },
-  { name: 'Chocolate Mousse', category: 'Desserts', price: 'Rs. 450', description: 'Silky chocolate mousse', image: pastaImg },
+  { name: 'Three Milk Cake', category: 'Desserts', price: 'Rs. 550', description: 'Classic tres leches cake', image: cakeImg },
+  { name: 'Chocolate Dream Cake', category: 'Desserts', price: 'Rs. 650', description: 'Rich chocolate layer cake', image: cakeImg },
+  { name: 'Lotus Cake', category: 'Desserts', price: 'Rs. 600', description: 'Biscoff lotus cake', image: cakeImg },
+  { name: 'Pistachio Cake', category: 'Desserts', price: 'Rs. 650', description: 'Creamy pistachio cake', image: cakeImg },
+  { name: 'Red Velvet Cake', category: 'Desserts', price: 'Rs. 600', description: 'Classic red velvet', image: cakeImg },
+  { name: 'Coffee Cake', category: 'Desserts', price: 'Rs. 550', description: 'Rich coffee flavored cake', image: cakeImg },
+  { name: 'Lotus Cookie', category: 'Desserts', price: 'Rs. 350', description: 'Biscoff lotus cookie', image: cakeImg },
+  { name: 'Nutella Cookie', category: 'Desserts', price: 'Rs. 350', description: 'Chocolate hazelnut cookie', image: cakeImg },
+  { name: 'Chocolate Mousse', category: 'Desserts', price: 'Rs. 450', description: 'Silky chocolate mousse', image: cakeImg },
   
   // Drinks
-  { name: 'Mint Margarita', category: 'Drinks', price: 'Rs. 350', description: 'Refreshing mint lime drink', image: pastaImg },
-  { name: 'Peach Ice Tea', category: 'Drinks', price: 'Rs. 300', description: 'Chilled peach iced tea', image: pastaImg },
-  { name: 'Coke / Pepsi', category: 'Drinks', price: 'Rs. 150', description: 'Chilled soft drink', image: pastaImg },
-  { name: 'Sprite / 7Up', category: 'Drinks', price: 'Rs. 150', description: 'Chilled lemon lime soda', image: pastaImg },
-  { name: 'Water', category: 'Drinks', price: 'Rs. 100', description: 'Mineral water bottle', image: pastaImg },
+  { name: 'Mint Margarita', category: 'Drinks', price: 'Rs. 350', description: 'Refreshing mint lime drink', image: drinksImg },
+  { name: 'Peach Ice Tea', category: 'Drinks', price: 'Rs. 300', description: 'Chilled peach iced tea', image: drinksImg },
+  { name: 'Coke / Pepsi', category: 'Drinks', price: 'Rs. 150', description: 'Chilled soft drink', image: drinksImg },
+  { name: 'Sprite / 7Up', category: 'Drinks', price: 'Rs. 150', description: 'Chilled lemon lime soda', image: drinksImg },
+  { name: 'Water', category: 'Drinks', price: 'Rs. 100', description: 'Mineral water bottle', image: drinksImg },
 ];
 
 const Menu = () => {
