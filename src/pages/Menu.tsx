@@ -40,7 +40,7 @@ import noodlesImg from '@/assets/menu-noodles.jpg';
 import manchurianImg from '@/assets/menu-manchurian.jpg';
 
 // Fast Food
-import burgerImg from '@/assets/menu-zinger-burger.jpg';
+import zesteSpecialBurgerImg from '@/assets/menu-zeste-special-burger.jpg';
 import beefBurgerImg from '@/assets/menu-beef-burger.jpg';
 import zingerBurgerImg from '@/assets/menu-zinger-burger.jpg';
 import shawarmaImg from '@/assets/menu-shawarma.jpg';
@@ -58,7 +58,7 @@ import nutellaCookieImg from '@/assets/menu-nutella-cookie.jpg';
 import chocolateMousseImg from '@/assets/menu-chocolate-mousse.jpg';
 
 // Drinks
-import mintMargaritaImg from '@/assets/menu-drinks.jpg';
+import mintMargaritaImg from '@/assets/menu-mint-margarita.jpg';
 import peachTeaImg from '@/assets/menu-peach-tea.jpg';
 import cokeImg from '@/assets/menu-coke.jpg';
 import spriteImg from '@/assets/menu-sprite.jpg';
@@ -107,7 +107,7 @@ const menuItems = [
   { name: 'Chicken Manchurian', category: 'Chinese', price: 'Rs. 950', description: 'Crispy chicken in tangy sauce', image: manchurianImg },
   
   // Fast Food
-  { name: 'Zesté Special Burger', category: 'Fast Food', price: 'Rs. 950', description: 'Our signature special burger', image: burgerImg },
+  { name: 'Zesté Special Burger', category: 'Fast Food', price: 'Rs. 950', description: 'Our signature special burger', image: zesteSpecialBurgerImg },
   { name: 'Beef Burger', category: 'Fast Food', price: 'Rs. 850', description: 'Juicy beef patty burger', image: beefBurgerImg },
   { name: 'Zinger Burger', category: 'Fast Food', price: 'Rs. 750', description: 'Crispy zinger chicken burger', image: zingerBurgerImg },
   { name: 'Zesté Special Zinger Shawarma', category: 'Fast Food', price: 'Rs. 650', description: 'Signature zinger shawarma', image: shawarmaImg },
