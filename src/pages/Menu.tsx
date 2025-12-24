@@ -22,7 +22,7 @@ import fishFingersImg from '@/assets/menu-fish-fingers.jpg';
 // Continental
 import mexicanSteakImg from '@/assets/menu-mexican-steak.jpg';
 import mushroomSteakImg from '@/assets/menu-mushroom-steak.jpg';
-import steakImg from '@/assets/menu-steak-new.jpg';
+import steakImg from '@/assets/menu-steak.jpg';
 
 // Italian
 import alfredoPastaImg from '@/assets/menu-alfredo-pasta.jpg';
@@ -40,7 +40,7 @@ import noodlesImg from '@/assets/menu-noodles.jpg';
 import manchurianImg from '@/assets/menu-manchurian.jpg';
 
 // Fast Food
-import burgerImg from '@/assets/menu-burger.jpg';
+import burgerImg from '@/assets/menu-zinger-burger.jpg';
 import beefBurgerImg from '@/assets/menu-beef-burger.jpg';
 import zingerBurgerImg from '@/assets/menu-zinger-burger.jpg';
 import shawarmaImg from '@/assets/menu-shawarma.jpg';
