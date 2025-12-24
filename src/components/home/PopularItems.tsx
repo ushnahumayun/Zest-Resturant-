@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import burgerImg from '@/assets/menu-burger.jpg';
-import pastaImg from '@/assets/menu-pasta-new.jpg';
-import steakImg from '@/assets/menu-steak-new.jpg';
+import burgerImg from '@/assets/menu-zinger-burger.jpg';
+import pastaImg from '@/assets/menu-alfredo-pasta.jpg';
+import steakImg from '@/assets/menu-steak.jpg';
 import dynamiteImg from '@/assets/menu-dynamite.jpg';
 
 const popularItems = [
